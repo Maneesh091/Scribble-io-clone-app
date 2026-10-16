@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const SERVER_URL = "ws://localhost:5000";
+const SERVER_URL = "https://scribble-io-clone-app.onrender.com";
 
 const COLORS = [
   "#111827",
