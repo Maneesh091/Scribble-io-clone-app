@@ -1,13 +1,12 @@
+
 {
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-"scripts": {
-  "start": "node server.js"
-}
-},
+    "start": "node ./src/server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
