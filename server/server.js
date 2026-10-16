@@ -1,7 +1,7 @@
 
 const http = require("http");
 const WebSocket = require("ws");
-const app = require("./app");
+const app = require("./src/app");
 
 const {
   createRoom,
@@ -18,7 +18,7 @@ const {
   getWinners,
   removePlayer,
   advanceTurn
-} = require("./services/roomServices");
+} = require("./src/services/roomServices");
 
 const PORT = Number(process.env.PORT) || 5000;
 const TURN_DURATION_MS = 60_000;
